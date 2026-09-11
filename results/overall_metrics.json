@@ -1,0 +1,18 @@
+{
+  "n_total": 6117,
+  "n_train": 4587,
+  "n_test": 1530,
+  "test_prevalence": 0.40261437908496733,
+  "roc_auc": 0.6675044047855865,
+  "pr_auc": 0.507372222627264,
+  "accuracy_at_0_5": 0.615686274509804,
+  "precision_at_0_5": 0.527027027027027,
+  "recall_at_0_5": 0.4431818181818182,
+  "specificity_at_0_5": 0.7319474835886215,
+  "f1_at_0_5": 0.48148148148148145,
+  "brier_score": 0.222693457009473,
+  "confusion_matrix_at_0_5": [[669, 245], [343, 273]],
+  "expected_calibration_error_10bin": 0.07122609138981877,
+  "youden_threshold": 0.3036013991127722,
+  "best_f1_threshold": 0.3036013991127722
+}
