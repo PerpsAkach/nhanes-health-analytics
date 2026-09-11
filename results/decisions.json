@@ -1,0 +1,31 @@
+{
+  "random_forest": {
+    "keep": false,
+    "meaningful_discrimination_gain": true,
+    "calibration_guardrail_pass": true,
+    "subgroup_guardrail_pass": false,
+    "delta_roc_auc": 0.00718264230299237,
+    "delta_pr_auc": 0.021377475684813185,
+    "delta_brier": -0.006261782750480616,
+    "delta_ece10": -0.021789377953602335,
+    "violations": [
+      "age_group:60+ recall 0.326 vs 0.618",
+      "sex_group:Male recall 0.317 vs 0.572"
+    ]
+  },
+  "gradient_boosting": {
+    "keep": false,
+    "meaningful_discrimination_gain": true,
+    "calibration_guardrail_pass": true,
+    "subgroup_guardrail_pass": false,
+    "delta_roc_auc": 0.008409943448236534,
+    "delta_pr_auc": 0.03112064430097139,
+    "delta_brier": -0.0057761985292743845,
+    "delta_ece10": -0.043742067291724133,
+    "violations": [
+      "age_group:18–29 ROC-AUC 0.683 vs 0.737",
+      "age_group:60+ recall 0.476 vs 0.618",
+      "sex_group:Male recall 0.471 vs 0.572"
+    ]
+  }
+}
